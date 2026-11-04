@@ -9,7 +9,7 @@ export function Size() { return [16, 6]; }
 export function DeviceType(){return "keyboard";}
 export function Version() { return "1.4.0"; }
 export function Description() { return "Кастомный плагин для ARDOR GAMING Kusarigama"; }
-export function Validate(endpoint) { return endpoint.interface === 1 || endpoint.interface === 2; }
+export function Validate(endpoint) { return endpoint.interface === 1 || endpoint.interface === 0x0001; }
 
 export function ControllableParameters(){
 	return [
