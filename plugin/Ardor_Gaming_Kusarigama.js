@@ -8,6 +8,8 @@ export function Publisher() { return "Custom"; }
 export function Documentation(){ return "troubleshooting/sinowealth"; }
 export function Size() { return [16, 6]; }
 export function DeviceType(){return "keyboard";}
+export function Version() { return "1.4.0"; }
+export function Description() { return "Кастомный плагин для ARDOR GAMING Kusarigama"; }
 export function Validate(endpoint) {
 	return endpoint.interface === 1 &&
 	       endpoint.usage === 0x0001 &&
