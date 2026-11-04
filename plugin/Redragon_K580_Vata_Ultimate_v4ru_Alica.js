@@ -394,8 +394,3 @@ export function onuseChecksumChanged() {
 export function onuseSideStripsChanged() {
     device.log(`[Настройки] Боковые ленты: ${useSideStrips ? "Включены" : "Выключены"}`);
 }
-
-// export function ImageUrl()
-// {
-//     return "https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580.png";
-// }
