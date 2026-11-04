@@ -1,26 +1,15 @@
 import {Assert} from "@SignalRGB/Errors.js";
 import DeviceDiscovery from "@SignalRGB/DeviceDiscovery";
 
-export function Name() { return "Sinowealth Device"; }
+export function Name() { return "ARDOR GAMING Kusarigama"; }
 export function VendorId() { return 0x258a; }
 export function ProductId() { return [0x010c]; }
-export function Publisher() { return "Custom"; }
-export function Documentation(){ return "troubleshooting/sinowealth"; }
+export function Publisher() { return "Vinodarin & Дарья (Gemini AI)"; }
 export function Size() { return [16, 6]; }
 export function DeviceType(){return "keyboard";}
 export function Version() { return "1.4.0"; }
 export function Description() { return "Кастомный плагин для ARDOR GAMING Kusarigama"; }
-export function Validate(endpoint) {
-	return endpoint.interface === 1 &&
-	       endpoint.usage === 0x0001 &&
-	       endpoint.usage_page === 0xFF00 &&
-	       endpoint.collection === 0x0006 &&
-		   device.vendorId() === 0x258a &&
-		   device.productId() === 0x010c;
-}
-export function ImageUrl() {
-	return "https://assets.signalrgb.com/devices/default/misc/usb-drive-render.png";
-}
+export function Validate(endpoint) { return endpoint.interface === 1 || endpoint.interface === 2; }
 
 export function ControllableParameters(){
 	return [
