@@ -58,7 +58,7 @@ const deviceLibrary = {
 	},
 	"None": {
 		name: "EVision Device",
-		image: "https://assets.signalrgb.com/devices/default/misc/usb-drive-render.png",
+		image: "https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580.png",
 	}
 };
 
