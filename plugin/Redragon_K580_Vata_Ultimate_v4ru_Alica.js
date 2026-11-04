@@ -24,7 +24,7 @@ const deviceLibrary = {
 		name: "Redragon K580 Vata",
 		// image: "https://githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580V2.png",
 		// image: "https://assets.signalrgb.com/devices/brands/redragon/keyboards/k580.png",
-		image: "https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580V2B.png",
+		image: "https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580V2N.png",
 		vLedNames: [
 			"Left strip 1",																																															"Right strip 1",
 			"Left strip 2",	"Esc",     "F1", "F2", "F3", "F4",   "F5", "F6", "F7", "F8",    "F9", "F10", "F11", "F12",		"Print Screen",	"Scroll Lock",	"Pause Break", 											"Right strip 2",
