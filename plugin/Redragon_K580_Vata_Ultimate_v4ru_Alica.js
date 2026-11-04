@@ -22,6 +22,7 @@ const PACKET_TOTAL  = 64; // общий размер USB-пакета
 const deviceLibrary = {
 	"Redragon K580 Vata": {
 		name: "Redragon K580 Vata",
+		image: "https://githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580.png",
 		/* image: "https://assets.signalrgb.com/devices/brands/redragon/keyboards/k580.png", */
 		vLedNames: [
 			"Left strip 1",																																															"Right strip 1",
@@ -391,9 +392,4 @@ export function onuseChecksumChanged() {
 
 export function onuseSideStripsChanged() {
     device.log(`[Настройки] Боковые ленты: ${useSideStrips ? "Включены" : "Выключены"}`);
-}
-
-export function ImageUrl()
-{
-	return "https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580.png";
 }
