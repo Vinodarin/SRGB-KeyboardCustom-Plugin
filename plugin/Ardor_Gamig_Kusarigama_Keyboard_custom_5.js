@@ -177,7 +177,7 @@ export class deviceLibrary {
 			69: {
 				name: "ARDOR GAMING Kusarigama",
 				layout: "75%",
-				image: "https://assets.signalrgb.com/devices/default/keyboards/keyboard75.png"
+				image: "image: https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580.png",
 			},
 		};
 
