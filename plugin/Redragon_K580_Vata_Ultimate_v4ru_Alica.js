@@ -22,7 +22,7 @@ const PACKET_TOTAL  = 64; // общий размер USB-пакета
 const deviceLibrary = {
 	"Redragon K580 Vata": {
 		name: "Redragon K580 Vata",
-		image: "https://assets.signalrgb.com/devices/brands/redragon/keyboards/k580.png",
+		image: "https://github.com/Vinodarin/SRGB-KeyboardCustom-Plugin/blob/master/image/RedragonK580.png",
 		/* image: "https://assets.signalrgb.com/devices/brands/redragon/keyboards/k580.png", */
 		vLedNames: [
 			"Left strip 1",																																															"Right strip 1",
