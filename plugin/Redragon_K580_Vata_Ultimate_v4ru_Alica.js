@@ -330,7 +330,7 @@ export function ControllableParameters() {
         { property: "LightingMode",    group: "lighting", label: "Режим работы",          type: "combobox", values: ["Canvas", "Canvas + Tint", "Canvas Blend", "Forced"], default: "Canvas" },
         { property: "forcedColor",     group: "lighting", label: "Цвет (Force/Tint)",     type: "color",    default: "#FF0000", isVisible: "LightingMode === 'Forced' || LightingMode === 'Canvas + Tint'" },
         { property: "smoothSpeed",     group: "lighting", label: "Плавность",             type: "combobox", values: ["0.1", "0.2", "0.3", "0.5", "1.0"], default: "0.3" },
-        { property: "canvasIntensity", group: "lighting", label: "Яркость",               type: "number",   min: 1, max: 5, default: 5 },
+        { property: "canvasIntensity", group: "lighting", label: "Дополнительная яркость",               type: "number",   min: 1, max: 5, default: 5 },
         { property: "packetSize",      group: "settings", label: "Размер пакета (байт)",  type: "combobox", values: ["24", "32", "48"], default: "48" },
         { property: "packetPause",      group: "settings", label: "Пауза (мс)",            type: "combobox", values: ["1", "2", "3", "5"], default: "3" },
         { property: "useChecksum",     group: "settings", label: "Чексумма",              type: "boolean",  default: true },
