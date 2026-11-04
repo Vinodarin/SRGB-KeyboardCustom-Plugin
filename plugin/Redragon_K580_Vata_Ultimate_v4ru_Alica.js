@@ -395,5 +395,5 @@ export function onuseSideStripsChanged() {
 
 export function ImageUrl()
 {
-	return "https://github.com/Vinodarin/SRGB-KeyboardCustom-Plugin/blob/master/image/RedragonK580.png";
+	return "https://raw.githubusercontent.com/Vinodarin/SRGB-KeyboardCustom-Plugin/master/image/RedragonK580.png";
 }
